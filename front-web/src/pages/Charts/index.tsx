@@ -5,6 +5,7 @@ import {barOptions, pieOptions} from './chart-options';
 import Chart from 'react-apexcharts';
 import axios from 'axios';
 import {buildBarSeries, getPlatformChartData, getGenderChartData} from './helpers';
+import { BASE_URL } from "../../utils/requests";
 
 type PieChartData = {
     labels: string[];
@@ -20,8 +21,6 @@ const initialPieData = {
     labels: [],
     series: []
 }
-
-const BASE_URL = 'https://sds1-wmazoni.herokuapp.com'
 
 const Charts = () => {
     const [barChartData, setBarChartData] = useState<BarChartData[]>([]);

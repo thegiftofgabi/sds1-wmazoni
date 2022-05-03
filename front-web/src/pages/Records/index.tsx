@@ -6,8 +6,7 @@ import {} from './types';
 import { formatDate } from './helpers';
 import Pagination from './Pagination';
 import Filters from '../../components/Filters'
-
-const BASE_URL = 'https://sds1-wmazoni.herokuapp.com'
+import { BASE_URL } from '../../utils/requests';
 
 const Records = () => {
     const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
