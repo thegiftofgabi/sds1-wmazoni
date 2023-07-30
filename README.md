@@ -1,78 +1,38 @@
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+Copy code
+# Sales Prediction Model
 
-# Sobre o projeto
+![Sales Prediction Model](/path/to/sales_prediction_model.png)
 
-https://wmazoni-sds1.netlify.app
+## Overview
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+The Sales Prediction Model is a machine learning model that aims to forecast sales for a given product or service based on historical data. This repository contains all the necessary code and resources to train, evaluate, and deploy the model.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+The model is built using state-of-the-art machine learning techniques and can be utilized by sales and marketing teams to gain valuable insights into future sales trends, allowing them to make informed decisions and optimize their strategies accordingly.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+## Table of Contents
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data](#data)
+- [Model](#model)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+## Installation
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+To use the Sales Prediction Model, follow these steps to set up the necessary environment:
 
-# Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
+1. Clone this repository to your local machine.
+2. Install the required dependencies using the following command:
 
 ```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+pip install -r requirements.txt
 
-# entrar na pasta do projeto back end
-cd backend
+Autor
+Gabriela Vieira
 
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
-# Autor
-
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
-
+LinkedIn
+https://www.linkedin.com/in/gabrielavieirasaia/
